@@ -1,0 +1,38 @@
+//#611818 red/orange
+
+
+
+body {
+    background: url(../img/background.png) no-repeat;
+    background-size: 100vw auto; //Covers viewport width
+}
+
+@media (orientation: portrait) {
+    body {
+        background-size: auto 100vh; //Mobile Viewport
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-size: auto 100vh;
+        background-size: cover;
+    }
+}
+
+
+
+.leftColumn {
+    height: 100vh;
+    background: #611818;
+}
+
+.main {
+    float: left;
+}
+
+.container {
+    max-width: 520px !important;
+    width: 60vh !important;
+}
+
