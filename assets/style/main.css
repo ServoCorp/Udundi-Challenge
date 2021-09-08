@@ -29,4 +29,36 @@ body {
   max-width: 520px !important;
   width: 60vh !important;
 }
+
+.explore {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: .7rem;
+  font-size: 16vh;
+}
+
+.maintext {
+  display: inline-block;
+  margin-top: 25%;
+  margin-left: -11.7%;
+  font-weight: bold;
+  color: #fff;
+}
+
+.details {
+  margin-left: 5%;
+  margin-top: -5%;
+  padding-right: 50vh;
+}
+
+.details > a {
+  color: #fff;
+  text-decoration: none !important;
+  font-weight: 400;
+  margin-left: 2%;
+  font-size: 2vh;
+}
+
+.details > a:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
