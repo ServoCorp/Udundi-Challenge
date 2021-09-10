@@ -1,6 +1,8 @@
 body {
   background: url(../img/background.png) no-repeat;
   background-size: 100vw auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (orientation: portrait) {
@@ -60,5 +62,24 @@ body {
 
 .details > a:hover {
   color: #fff;
+}
+
+.card {
+  width: 27vw;
+  top: -50vh;
+  height: 70vh;
+  margin-left: -80vh;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  visibility: hidden;
+}
+
+.card-body {
+  padding: 3rem 5rem !important;
+}
+
+.card-title > h1 {
+  color: #611818;
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,6 +5,8 @@
 body {
     background: url(../img/background.png) no-repeat;
     background-size: 100vw auto; //Covers viewport width
+    width: 100vw;
+    height: 100vh;
 }
 
 @media (orientation: portrait) {
@@ -70,4 +72,20 @@ body {
 
 }
 
+.card {
+    width: 27vw;
+    top: -50vh;
+    height: 70vh;
+    margin-left: -80vh;
+    display: inline-flex !important;
+    visibility: hidden;
+}
 
+.card-body {
+    padding: 3rem 5rem !important;
+}
+
+.card-title > h1 {
+    color: #611818;
+
+}
