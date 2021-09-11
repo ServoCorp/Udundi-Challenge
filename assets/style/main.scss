@@ -74,9 +74,9 @@ body {
 }
 
 .card {
-    width: 27vw;
+    width: 30vw;
     top: -50vh;
-    height: 65vh;
+    height: 70vh;
     margin-left: -80vh;
     display: inline-flex !important;
     visibility: hidden;
@@ -87,7 +87,7 @@ body {
 
 
 .card-body {
-    padding: 1vh 9vh !important;
+    padding: 1vh 4vh !important;
     overflow: auto;
     &::-webkit-scrollbar {
         width: 0.5em;
@@ -126,7 +126,7 @@ body {
     background: rgb(97,24,24);
     background: linear-gradient(90deg, rgba(97,24,24,1) 21%, rgba(170,96,96,1) 97%);
     border-color: transparent !important;
-    width: 20vh !important;
+    width: 25vh !important;
     display: block;
     text-align: center;
 }
@@ -147,12 +147,15 @@ body {
 
 .card-text {
     font-size: 1.7vh;
+    line-height: 4vh;
 }
 
 hr {
     color: rgb(97,24,24);
     background: linear-gradient(90deg, rgba(97,24,24,1) 21%, rgb(255, 255, 255) 75%);
     opacity: 1 !important;
+    height: 2px !important;
+    width: 18vw !important;
 }
 
 
