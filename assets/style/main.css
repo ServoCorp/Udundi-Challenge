@@ -3,6 +3,7 @@ body {
   background-size: 100vw auto;
   width: 100vw;
   height: 100vh;
+  position: fixed;
 }
 
 @media (orientation: portrait) {
@@ -67,19 +68,78 @@ body {
 .card {
   width: 27vw;
   top: -50vh;
-  height: 70vh;
+  height: 65vh;
   margin-left: -80vh;
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
   visibility: hidden;
+  -webkit-box-shadow: -2px -2px 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: -2px -2px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 0 !important;
 }
 
 .card-body {
-  padding: 3rem 5rem !important;
+  padding: 1vh 9vh !important;
 }
 
-.card-title > h1 {
+.card-body > h1 {
   color: #611818;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 6vh;
+  min-width: 20vw;
+}
+
+.close-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1vh 1vh 0 0;
+}
+
+.btn-close {
+  -webkit-filter: invert(10%) sepia(76%) saturate(2145%) hue-rotate(342deg) brightness(100%) contrast(94%);
+          filter: invert(10%) sepia(76%) saturate(2145%) hue-rotate(342deg) brightness(100%) contrast(94%);
+  opacity: 1 !important;
+}
+
+.btn-primary {
+  border-radius: 0 !important;
+  background: #611818;
+  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #611818), color-stop(97%, #aa6060));
+  background: linear-gradient(90deg, #611818 21%, #aa6060 97%);
+  border-color: transparent !important;
+  width: 20vh !important;
+}
+
+.social {
+  float: right;
+  margin-top: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top {
+  padding-bottom: 1vh;
+}
+
+.card-text {
+  font-size: 1.7vh;
+}
+
+hr {
+  color: #611818;
+  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #611818), color-stop(75%, white));
+  background: linear-gradient(90deg, #611818 21%, white 75%);
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=main.css.map */

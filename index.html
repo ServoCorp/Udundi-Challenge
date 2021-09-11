@@ -24,13 +24,21 @@
         </div></a>
     </div>
     <div class="card" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="close-card">
+            <button type="button" onclick="hideBox()" class="btn-close"></button>
+        </div>
         <div class="card-body">
           <h1 class="card-title">Explore</h1>
           <hr>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla malesuada pellentesque elit eget gravida cum sociis. Tortor dignissim convallis aenean et. Urna neque viverra justo nec ultrices dui sapien. Ut sem nulla pharetra diam sit amet nisl suscipit. Quam adipiscing vitae proin sagittis nisl. Malesuada proin libero nunc consequat interdum varius sit. At quis risus sed vulputate. Ornare arcu dui vivamus arcu felis. Risus pretium quam vulputate dignissim suspendisse in est. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Pretium quam vulputate dignissim suspendisse in est. Id ornare arcu odio ut sem nulla pharetra diam. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Phasellus egestas tellus rutrum tellus. A diam sollicitudin tempor id eu nisl nunc. Aliquet bibendum enim facilisis gravida neque convallis a cras semper.</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla malesuada pellentesque elit eget gravida cum sociis. Tortor dignissim convallis aenean et. Urna neque viverra justo nec ultrices dui sapien. Ut sem nulla pharetra diam sit amet nisl suscipit. Quam adipiscing vitae proin sagittis nisl. Malesuada proin libero nunc consequat interdum varius sit. At quis risus sed vulputate. Ornare arcu dui vivamus arcu felis. Risus pretium quam vulputate dignissim suspendisse in est. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Pretium quam vulputate dignissim suspendisse in est. Id ornare arcu odio ut sem nulla pharetra diam.</p>
           <a href="#" class="btn btn-primary">READ MORE</a>
         </div>
       </div>
+
+      <div class="social">
+        <a href="#" class="top"><img alt="facebook icon" class="img-fluid" src="./assets/img/Facebook.svg"></a>
+        <a href="#" ><img alt="instagram icon" class="img-fluid" src="./assets/img/Instagram.svg"></a>
+    </div>
 
     
 
@@ -45,6 +53,11 @@
     function showHide() {
         document.getElementsByClassName("maintext")[0].style.visibility="hidden";
         document.getElementsByClassName("card")[0].style.visibility="visible";
+    }
+    function hideBox() {
+        document.getElementsByClassName("maintext")[0].style.visibility="visible";
+        document.getElementsByClassName("card")[0].style.visibility="hidden";
+
     }
   </script>
 </body>
