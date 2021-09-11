@@ -81,6 +81,17 @@ body {
 
 .card-body {
   padding: 1vh 9vh !important;
+  overflow: auto;
+}
+
+.card-body::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+  background-color: #611800;
+  border-radius: 3px;
 }
 
 .card-body > h1 {
@@ -126,6 +137,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: -5vh;
 }
 
 .top {
@@ -141,5 +155,9 @@ hr {
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #611818), color-stop(75%, white));
   background: linear-gradient(90deg, #611818 21%, white 75%);
   opacity: 1 !important;
+}
+
+.btn {
+  display: initial !important;
 }
 /*# sourceMappingURL=main.css.map */
