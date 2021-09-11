@@ -127,6 +127,8 @@ body {
     background: linear-gradient(90deg, rgba(97,24,24,1) 21%, rgba(170,96,96,1) 97%);
     border-color: transparent !important;
     width: 20vh !important;
+    display: block;
+    text-align: center;
 }
 
 .social {
@@ -153,9 +155,6 @@ hr {
     opacity: 1 !important;
 }
 
-.btn {
-    display: initial !important;
-}
 
 
 .animate {

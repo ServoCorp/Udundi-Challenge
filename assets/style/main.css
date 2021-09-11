@@ -125,6 +125,8 @@ body {
   background: linear-gradient(90deg, #611818 21%, #aa6060 97%);
   border-color: transparent !important;
   width: 20vh !important;
+  display: block;
+  text-align: center;
 }
 
 .social {
@@ -155,10 +157,6 @@ hr {
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #611818), color-stop(75%, white));
   background: linear-gradient(90deg, #611818 21%, white 75%);
   opacity: 1 !important;
-}
-
-.btn {
-  display: initial !important;
 }
 
 .animate {
