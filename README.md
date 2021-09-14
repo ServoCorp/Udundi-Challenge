@@ -1,8 +1,7 @@
 
 # Udundi Coding Challenge
 
-This is a coding challenge for Udundi. Below you will find the design I was to match and my verion of it.
-
+This is a coding challenge for Udundi. Below you will find the design I was to match and my version of it.
 
 
 
